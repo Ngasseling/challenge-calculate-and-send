@@ -19,7 +19,7 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     basic.showNumber(Punten_aantal)
     Punten_balans = Punten_balans + Punten_aantal
-    radio.sendNumber(Punten_balans)
+    radio.sendNumber(Punten_aantal)
     basic.pause(100)
     Afstand = 0
     Punten_aantal = 0
